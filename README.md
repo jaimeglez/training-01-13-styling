@@ -9,3 +9,7 @@ This is a project where the new guys are working in css and html5 helping by me 
 You have to start the markup (make the html5 view) ...Note : Make some info in
 this readme about this project and your name with link to your github account(each one should do the same thing). 
 Please remove this comment when the list of members and description are ready.
+
+Dámaso Diéguez López
+César Alberto Gómez Carrillo
+Jonathan De la Cruz Leyva
