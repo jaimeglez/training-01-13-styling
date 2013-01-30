@@ -1,5 +1,5 @@
 body{
-
+margin: 0 auto;
 }
 
 nav ul li
@@ -9,6 +9,12 @@ nav ul li
   cursor:pointer;
 }
 
+#master{
+  width:960px;
+  margin: 0 auto;
+  text-align:center;
+
+}
 
 #div1{
 }
@@ -31,5 +37,6 @@ color: #fff;
   margin: 0 auto;
   text-align:center;
   width:960px;
+  height:800px;
 }
 
