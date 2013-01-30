@@ -1,0 +1,32 @@
+body{
+
+}
+
+nav ul li
+{
+  display:inline-block;
+  margin-right:20px;
+  color: #fff;
+  cursor:pointer;
+}
+
+
+#div1{
+
+}
+
+#div2{
+
+}
+
+#div3{
+
+}
+
+.gray{
+background-color: rgb(85 91 90);
+}
+
+.white{
+
+}
