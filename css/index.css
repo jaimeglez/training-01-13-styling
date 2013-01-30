@@ -4,17 +4,13 @@ body{
 
 nav ul li
 {
-  /*display:inline-block;*/
+  display:inline-block;
   margin-right:20px;
-  /*color: #fff;*/
   cursor:pointer;
 }
 
 
 #div1{
-width:960px;
-  margin:$center;
-  text-align:center;
 }
 
 #div2{
@@ -30,6 +26,10 @@ background-color: #555B5A;
 color: #fff;
 }
 
-.white{
+.gray, .white{
 
+  margin: 0 auto;
+  text-align:center;
+  width:960px;
 }
+
