@@ -1,5 +1,5 @@
 body{
-margin: 0 auto;
+margin-top: -16px;
 }
 
 nav ul li
@@ -16,16 +16,16 @@ nav ul li
 
 }
 
-#div1{
-}
+/*#div1{*/
+/*}*/
 
-#div2{
+/*#div2{*/
 
-}
+/*}*/
 
-#div3{
+/*#div3{*/
 
-}
+/*}*/
 
 .gray{
 background-color: #555B5A;
@@ -34,9 +34,6 @@ color: #fff;
 
 .gray, .white{
 
-  margin: 0 auto;
-  text-align:center;
-  width:960px;
   height:800px;
 }
 
