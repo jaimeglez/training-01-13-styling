@@ -4,10 +4,10 @@ body{
 
 nav ul li
 {
-  display:inline-block;
-  margin-right:20px;
-  color: #fff;
-  cursor:pointer;
+  /*display:inline-block;*/
+  /*margin-right:20px;*/
+  /*color: #fff;*/
+  /*cursor:pointer;*/
 }
 
 
@@ -24,7 +24,7 @@ nav ul li
 }
 
 .gray{
-background-color: rgb(85 91 90);
+background-color: #000;
 }
 
 .white{
