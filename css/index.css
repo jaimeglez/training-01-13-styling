@@ -1,20 +1,22 @@
 body{
-
+margin: 0 auto;
 }
 
 nav ul li
 {
-  /*display:inline-block;*/
+  display:inline-block;
   margin-right:20px;
-  /*color: #fff;*/
   cursor:pointer;
 }
 
+#master{
+  width:960px;
+  margin: 0 auto;
+  text-align:center;
+
+}
 
 #div1{
-width:960px;
-  margin:$center;
-  text-align:center;
 }
 
 #div2{
@@ -30,6 +32,11 @@ background-color: #555B5A;
 color: #fff;
 }
 
-.white{
+.gray, .white{
 
+  margin: 0 auto;
+  text-align:center;
+  width:960px;
+  height:800px;
 }
+
