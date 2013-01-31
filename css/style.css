@@ -1,0 +1,8 @@
+body{
+background: url('../images/bg1.jpg');
+}
+ul{display:inline;}
+
+ul li{float: left;}
+
+
