@@ -7,7 +7,7 @@ This is a project where the new guys are working in css and html5 helping by me 
 
                      The team 2 staff
 
-Jeaneth Farmer        https://github.com/Xaiid 
-Juan Carlos Aguilar   https://github.com/zalapeach
-Leonardo Gonzalez     https://github.com/OmiKronDelair
+* Jeaneth Farmer        https://github.com/Xaiid 
+* Juan Carlos Aguilar   https://github.com/zalapeach
+* Leonardo Gonzalez     https://github.com/OmiKronDelair
 
