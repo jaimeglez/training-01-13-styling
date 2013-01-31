@@ -1,5 +1,6 @@
 body{
-margin-top: -16px;
+margin: -16px 0 0 0;
+font-family: "Helvetica", Arial;
 }
 
 nav ul li
@@ -11,15 +12,11 @@ nav ul li
 }
 
 #master{
-  width: 960px;
-  margin: 0 auto;
-  text-align:center;
-
 }
 
-/*#div2{*/
-
-/*}*/
+#img_line {
+display: inline-block;
+}
 
 /*#div3{*/
 
@@ -32,7 +29,8 @@ color: #fff;
 }
 
 .gray, .white{
-  width: 960px;
   height: 800px;
+  margin: 0 auto;
+  text-align:center;
 }
 
