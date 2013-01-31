@@ -1,0 +1,22 @@
+body{
+  header{
+    color: red;
+  }
+}
+
+
+@mixin box-shadow $par{
+  -webkit-box-shadow: $par;
+  -moz-box-shadow: $par;
+  -ms-box-shadow: $par;
+  -o-box-shadow: $par;
+  box-shadow: $par;
+}
+
+.elemtent {
+  @include box-shadow: 1px 1px 1px #ccc;
+}
+
+button {
+  @include box-shadow: 1px 1px 1px #ccc;
+}
