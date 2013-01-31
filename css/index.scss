@@ -1,6 +1,20 @@
+$center:0 auto;
+
+body {
+margin:$center;
+background-color: black;
+}
+
+#content {
+width: 960px;
+margin: 0 auto;
+}
+
+
 #menu ul li, #header-social li  {
   display:inline-block;
   margin-right:30px;
   margin-top: 40px;
   cursor:pointer;
 }
+
