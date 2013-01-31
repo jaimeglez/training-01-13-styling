@@ -8,7 +8,6 @@ This is a project where the new guys are working in css and html5 helping by me 
 You have to start the markup (make the html5 view) 
 
 
-
 Full names                                         Username in GitHub
 
 Dámaso Diéguez López:                                 "DarkAzteck"
