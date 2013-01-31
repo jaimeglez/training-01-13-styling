@@ -1,0 +1,9 @@
+body {
+  background-color: white;
+}
+
+.middle { 
+  border: 1px solid red;
+  margin: 0 100px;
+  position: absolute;
+}
