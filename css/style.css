@@ -1,21 +1,49 @@
 body{
 background: url('../images/bg1.jpg');
 }
+
 #header{
  margin: 30px auto;
+ height:120px;
  width:1100px;
  background: blue;
 }
+
+
 .logo{
 background: url('../images/logo.png');
 width:114px;
 height:114px;
-display:block;
+display:inline-block;
+float:left;
 text-indent: -99999px;}
+
+
+.menu,.social{
+margin-top: 50px;
+}
+
+.menu{
+float:left;
+}
+.menu a {
+
+color:#fff;
+font-style:bold;
+}
+a{
+text-decoration:none;
+}
+
+.social{
+float:right;
+margin-right: 20px}
 #content1{background: red;}
+
 ul li{
 	display:inline;
 }
+
 ul{
 text-align:center;
 }
