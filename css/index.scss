@@ -1,7 +1,10 @@
 $center:0 auto;
 $gray:#707070;
+$width-logo:455px;
+$height-logo:201px;
 
 body {
+  margin: -16px 0 0 -1px;
 }
 
 #content header{
@@ -10,24 +13,43 @@ height:150px;
 
 #logo{
 float:left;
-width:180px;
-height:180px;
+text-align:left;
+width:120px;
+height:120px;
 overflow: hidden;
 img{
-//width:117px;
-//height:117px;
+width:$width-logo;
+height:$height-logo;
+}
+
+#social{
+float:right;
+width:100px;
+height:50px;
+overflow: hidden;
+img{
+width:148px;
+height:50px;
 }
 }
 
+}
+
 #content {
-width: 960px;
+height: auto;
 margin: $center;
 background-color:$gray;
 
 }
 
+#top-content{
+width:960px;
+margin:$center;
+color: white;
+}
+
 @mixin delete-points{
-  display:inline;
+  display:inline-block;
   cursor:pointer;
 }
 
@@ -36,10 +58,22 @@ background-color:$gray;
 }
 
 #menu {
-  margin-top: 10px;
-  float:right;
+  text-align: left;
   ul li{
   margin-right:30px;
-  margin-top: 40px;}
+  margin-top: 75px;}
+}
+
+#slider{
+  margin:center;
+  img{
+  width:960px;
+  height:450px;
+  }
+
+#avatars li {
+margin-right: 20px;
+}
+
 }
 
