@@ -84,13 +84,40 @@ ul li{
 #SECTION2 {
   background-color: white;
   width: 100%;
-  margin: 0 auto;
+  height: 800px;
+  margin: 20px auto;
 }
 
 #CONTEINER {
   width: 960px;
-  border: 1px black solid;
-  margin: 0 auto;
+  height: 50px;
+  border: 1px;
+  margin: 20px auto;
+}
+
+.M-TITLE {
+  font: bold 14px arial;
+  margin: 20px auto;
+}
+
+.RAYA {
+  background: url("../images/bg2.jpg") repeat-x;
+  height: 20px;
+}
+
+#COLUMNS {
+  clear: both;
+  overflow: hidden;
+}
+
+#LEFT {
+  width: 470px;
+  float: left;
+}
+
+#RIGHT {
+  width: 470px;
+  float: right;
 }
 
 
