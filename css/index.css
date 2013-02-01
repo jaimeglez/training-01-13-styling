@@ -2,8 +2,13 @@
   height: 150px; }
 
 #logo {
-  width: 117px;
-  height: 117px; }
+  float: left;
+  width: 180px;
+  height: 180px;
+  overflow: hidden; }
+  #logo img {
+    width: 117px;
+    height: 117px; }
 
 #content {
   width: 960px;
@@ -15,7 +20,8 @@
   cursor: pointer; }
 
 #menu {
-  margin-top: 10px; }
+  margin-top: 10px;
+  float: right; }
   #menu ul li {
     margin-right: 30px;
     margin-top: 40px; }
