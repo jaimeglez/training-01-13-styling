@@ -16,6 +16,7 @@ body {background: url('../images/bg1.jpg');}
   height:114px;
   float:left;
 }
+
 .menu{
   width:888px;
   margin:50px 0 0 15px;
@@ -139,6 +140,45 @@ ul li{
 }
 
 /*--------------------------------------ends second section-------------------------------------*/
+/*--------------------------------------starts third section-------------------------------------*/
+#section3 {
+  background: url('images/bg1.jpg');
+  width: 960px;
+  margin: 0 auto;
+  margin-top:40px;
+}
+
+
+.logo-footer{
+  background: url('../images/logo-footer.png');
+  text-indent: -99999px;
+  width:62px;
+  height:45px;
+  clear: both;
+}
+
+
+.bloques{
+  display: inline-block;
+  margin: 0;
+  padding: 0;  
+}
+.bloques section, .bloques article, .bloques ul li{
+  display: inline-block;
+  width: 180px;
+  margin: 0;
+  padding: 0;  
+}
+.bloques article{
+  width: 370px;
+}
+
+footer{
+  padding: 0px;
+  margin: 0 0 0 20px;
+}
+/*--------------------------------------ends third section-------------------------------------*/
+
 /*
     <section class = "MITAD">
       <section class = "middleA">
@@ -165,7 +205,7 @@ ul li{
         </figure>
         <p>Lorem ipsum dolor sit amet, <strong>#PSD</strong> consectetuer adipiscing elit. <strong>Phasellus id sollicitudin</strong> sapien.</p>
       </section>
-      <section class = "middleC">
+      /<section class = "middleC">
         <header>
           <h2>LATEST NEWS ARTICLES</h2>
         </header>
