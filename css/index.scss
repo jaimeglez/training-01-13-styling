@@ -1,20 +1,38 @@
 $center:0 auto;
+$gray:#707070;
 
 body {
-margin:$center;
-background-color: black;
+}
+
+#content header{
+height:150px;
+}
+
+#logo{
+width:117px;
+height:117px;
 }
 
 #content {
 width: 960px;
-margin: 0 auto;
+margin: $center;
+background-color:$gray;
+
 }
 
-
-#menu ul li, #header-social li  {
-  display:inline-block;
-  margin-right:30px;
-  margin-top: 40px;
+@mixin delete-points{
+  display:inline;
   cursor:pointer;
+}
+
+#menu ul li, #header-social li, .avatars li  {
+  @include delete-points;
+}
+
+#menu {
+  margin-top: 10px;
+  ul li{
+  margin-right:30px;
+  margin-top: 40px;}
 }
 
