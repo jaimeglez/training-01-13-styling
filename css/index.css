@@ -57,7 +57,7 @@ body {
   margin: 0 auto;
   padding: 30px; }
 
-#menu ul li, #header-social li, .avatars li {
+#menu ul li, #header-social li, .avatars li, #section-articles ul li {
   display: inline-block;
   cursor: pointer; }
 
@@ -126,3 +126,25 @@ ul li figure {
 
 #main-articles {
   margin: 100px auto; }
+
+  #section-articles{
+    background-color: gray;
+  }
+
+  .img-articles, #section-articles img{
+    margin: 10px 0 40px 0;
+    float: left;
+    width: 120px;
+    height: 120px;
+  }
+
+  .img2-articles {
+    float: right;
+    background-color: red;
+  }
+
+  #section-articles div h2, #section-articles div article{
+    margin-left: 160px;
+    width: 640px;
+  }
+
