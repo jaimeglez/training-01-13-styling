@@ -1,60 +1,72 @@
-body{
-background: url('../images/bg1.jpg');
-}
-
+body{background: url('../images/bg1.jpg');}
+/*------------------------------------------------------- first section----------------------------------------*/
 #header{
- margin: 30px auto;
- height:120px;
- width:1100px;
- background: blue;
+  margin: 30px auto;
+  height:120px;
+  width:1100px;
 }
 
 
 .logo{
-background: url('../images/logo.png');
-width:114px;
-height:114px;
-display:inline-block;
-float:left;
-text-indent: -99999px;}
-
-
-.menu,.social{
-margin-top: 50px;
+  background: url('../images/logo.png');
+  display:inline-block;
+  text-indent: -99999px;
+  width:114px;
+  height:114px;
+  float:left;
 }
-
 .menu{
-float:left;
+  width:888px;
+  margin:50px 0 0 15px;
+  background: url('../images/menu-divider.png') no-repeat 39px 35px;
+  float:left;
 }
 .menu a {
-
-color:#fff;
-font-style:bold;
+  text-decoration:none;
+  font: bold 13px "Comic Sans MS", sans-serif;
+  color:#fff;
 }
-a{
-text-decoration:none;
+.menu li {
+  margin-right:20px;
 }
-
 .social{
-float:right;
-margin-right: 20px}
-#content1{background: red;}
+  background: url('../images/social-media.png') no-repeat;
+  display:inline-block;
+  text-indent: -99999px;
+  float:right;
+  height:84px;
+  margin:70px -13px  0 -10px }
 
 ul li{
-	display:inline;
+  display:inline;
 }
 
-ul{
-text-align:center;
+#avatar{
+  text-align:center;
 }
-
-#imgprincipal {
-	display:block;
-	margin: 0 auto;
-	padding: 25px 0;
-	width:1100px;
-	height:400px;
-	overflow: hidden;
+#figure{
+  margin: 0 auto;
+  width:1110px;
+  background: url('../images/slide-placeholder.png') ;
+}
+#figure img{
+  margin-left:70px;
+}
+#prev, #next{
+  display:inline-block;
+  width:30px;
+  height:30px;
+}
+#prev{
+  float:left;
+  margin: 215px 0 0 95px;
+	background: url('../images/slider-nav.png');
+}
+#next{
+	float:right;
+	margin-top:-230px;
+	margin-right:95px;
+	background: url('../images/slider-nav.png') -30px;
 }
 
 .imglist {
@@ -64,3 +76,4 @@ text-align:center;
 	height: 200px;
         margin: 20px 25px 40px 0;
 }
+/*-------------------------------------------------------ends first section---------------------------------------------*/

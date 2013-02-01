@@ -3,7 +3,9 @@ body{
     color: red;
   }
 }
-
+#content1{
+background: url('images/bg1.jpg');
+}
 
 @mixin box-shadow $par{
   -webkit-box-shadow: $par;
