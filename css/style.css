@@ -1,8 +1,33 @@
 body{
 background: url('../images/bg1.jpg');
 }
-ul{display:inline;}
+#header{
+ margin: 30px auto;
+ width:1100px;
+ background: blue;
+ 
+}
+#content1{background: red;}
+ul li{
+	display:inline;
+}
+ul{
+text-align:center;
+}
 
-ul li{float: left;}
+#imgprincipal {
+	display:block;
+	margin: 0 auto;
+	padding: 25px 0;
+	width:1100px;
+	height:400px;
+	overflow: hidden;
+}
 
-
+.imglist {
+	overflow:hidden;
+	display:inline-block;
+	width: 200px;
+	height: 200px;
+        margin: 20px 25px 40px 0;
+}
