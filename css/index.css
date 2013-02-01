@@ -1,7 +1,7 @@
 body {
   margin: -16px 0 0 -1px;
   font-family: "Helvetica", Arial;
-  background-color: #474747; }
+  background-color: #303030; }
 
 #content header {
   height: 150px; }
@@ -16,8 +16,8 @@ body {
   margin-bottom: 20px; }
 
 #socials {
-  margin: -50px 0 0 0;
-  float: right;
+  display: block;
+  margin: -40px 0 0 875px;
   height: 45px;
   width: 90px; }
 
@@ -42,8 +42,7 @@ body {
   text-align: left;
   margin: 0 0 0 40px; }
   #menu ul li {
-    margin: 0 10px 0 30px;
-    margin-top: 75px; }
+    margin: 75px 10px 0 30px; }
 
 #content {
   height: auto;
@@ -62,10 +61,9 @@ body {
   display: inline-block;
   cursor: pointer; }
 
-#slider {
-  margin: center; }
-  #slider img {
-    margin-bottom: 30px; }
+ul li figure {
+  text-align: left;
+  margin: 0 auto 0 auto; }
 
 #main-content {
   background-color: white; }
@@ -74,6 +72,57 @@ body {
   width: 960px;
   margin: 0 auto; }
 
+.text-title {
+  background: url(../img/divider.png) no-repeat;
+  background-position: bottom; }
+
+#text-section {
+  height: 450px; }
+
 #section-left {
+  display: block;
+  position: relative;
   text-align: left;
   width: 470px; }
+
+#section-right {
+  display: block;
+  position: relative;
+  text-align: left;
+  width: 470px;
+  margin: -390px 480px; }
+
+#button1 {
+  margin: 400px 480px; }
+
+#button2 {
+  margin: 50px 400px; }
+
+.gray-area {
+  background-color: #c9c9c9;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  -webkit-border-radius: 5px; }
+
+.gray-button {
+  padding: 5px 80px 6px 80px;
+  display: inline-block; }
+
+#twitter-foot {
+  margin: -320px auto;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  display: block;
+  -webkit-border-radius: 5px; }
+
+#twit {
+  width: 38px;
+  height: 27px;
+  float: left;
+  margin-top: 10px;
+  background: url(../img/twitter-bird.png); }
+
+#main-articles {
+  margin: 100px auto; }
