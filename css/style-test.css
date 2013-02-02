@@ -1,4 +1,4 @@
-body {background: url('../images/bg1.jpg'); font-family: Verdana, Arial, Helvetica, sans-serif;}
+body {background: url('../images/bg1.jpg'); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small;}
 
 /*------------------------------------------------------- first section----------------------------------------*/
 #header{
@@ -86,8 +86,8 @@ ul li{
 #section2 {
   background-color: white;
   width: 100%;
-  height: 2000px;
-  margin: 20px auto;
+  height: 2050px;
+  margin: 0 auto;
 }
 
 #CONTEINER {
@@ -180,82 +180,3 @@ footer{
   margin: 0 0 100 20px;
 }
 /*--------------------------------------ends third section-------------------------------------*/
-
-/*
-    <section class = "MITAD">
-      <section class = "middleA">
-        <header>
-          <h1 class="m-title">HERE IS A TWO COLUME TEXT AREA</h1>
-        </header>
-        <section class = "c">
-          <article class = "c1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor quam vel massa adipiscing ut cursus mi congue. Pellentesque misl velit, commodo vel ultrices vet.</p>
-            <p>Consequat non tortor. Donec a elit diam, ut interdum purus. Nam fringilla dapibus tellus, at sollicitum lectus aliquetvel. Maecenas eros neque, fringilla a cursus et, volutpat ac lacus. Aliquam ac mauris libero. In tristique tincidunt est, a vulputate felis suscipit in. Nulla facilisi. Aliquam ac mauris libero. In tristique tincidunt est, a vulpurate felis suscipit in. Nunc et mi libero. Quisque portitor fringilla eros, io commodo massa varius id.</p>
-            <p>Pellentesque habitant morbi tristique senectus et netus at malesuada fames ac turpis agestas. Etam vitae tempor ante. Vestibulum ut magna ve augue interdum sollicitudin ad aget purus. Fusce eu eros non augue malesuada consequat quis vitae est. Aliquam posuere, lectus sed iaculis portitor, mi lectus commodo lectus, eget imperdiet risus odio.</p>
-          </article>
-          <article class="c2">
-            <p>Consequat non tortor. Donec a elit diam, ut interdum purus. Nam fringilla dapibus tellus, at sollicitum lectus aliquetvel. Maecenas eros neque, fringilla a cursus et, volutpat ac lacus. Aliquam ac mauris libero. In tristique tincidunt est, a vulputate felis suscipit in. Nulla facilisi. Aliquam ac mauris libero. In tristique tincidunt est, a vulpurate felis suscipit in. Nunc et mi libero. Quisque portitor fringilla eros, io commodo massa varius id.</p>
-            <p>Pellentesque habitant morbi tristique senectus et netus at malesuada fames ac turpis agestas. Etam vitae tempor ante. Vestibulum ut magna ve augue interdum sollicitudin ad aget purus. Fusce eu eros non augue malesuada consequat quis vitae est. Aliquam posuere, lectus sed iaculis portitor, mi lectus commodo lectus, eget imperdiet risus odio.</p>
-            <a href="" class="button">Bigger button</a>
-          </article>
-        </section>
-      </section>
-      <div class = "xxx"></div>
-      <section class="middleB">
-        <figure>
-          <img src="">
-        </figure>
-        <p>Lorem ipsum dolor sit amet, <strong>#PSD</strong> consectetuer adipiscing elit. <strong>Phasellus id sollicitudin</strong> sapien.</p>
-      </section>
-      /<section class = "middleC">
-        <header>
-          <h2>LATEST NEWS ARTICLES</h2>
-        </header>
-        <section class="l-articles">
-          <div class = "articuno">
-            <figure>
-              <img src="">
-            </figure>
-            <header>
-              <h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT</h3>
-            </header>
-            <article>
-              <p>Morbi tempor quam vel massa adipiscing ut cursus mi congue. Pellentesque misl velit, commodo vel ultrices vet. Consequat non tortor. Donec a elit diam, ut interdum purus. Nam fringilla dapibus tellus, at sollicitum lectus aliquetvel. Maecenas eros neque, fringilla a cursus et, volutpat ac lacus. Aliquam ac mauris libero. In tristique tincidunt est, a vulputate felis suscipit in. Nulla facilisi. Aliquam ac mauris libero. In tristique tincidunt est, a vulpurate felis suscipit in. Nunc et mi libero. Quisque portitor fringilla eros, io commodo massa varius id.</p>
-              <p>Pellentesque habitant morbi tristique senectus et netus at malesuada fames ac turpis agestas.</p>
-            </article>
-            <figure>
-              <img src = "">
-            </figure>
-          </div>
-          <div class = "articuno">
-            <figure>
-              <img src="">
-            </figure>
-            <header>
-              <h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADISPISCING ELIT.</h3>
-            </header>
-            <article>
-              <p>Morbi tempor quam vel massa adipiscing ut cursus mi congue. Pellentesque misl velit, commodo vel ultrices vet. Consequat non tortor. Donec a elit diam, ut interdum purus. Nam fringilla dapibus tellus, at sollicitum lectus aliquetvel. Maecenas eros neque, fringilla a cursus et, volutpat ac lacus. Aliquam ac mauris libero. In tristique tincidunt est, a vulputate felis suscipit in. Nulla facilisi. Aliquam ac mauris libero. In tristique tincidunt est, a vulpurate felis suscipit in. Nunc et mi libero. Quisque portitor fringilla eros, io commodo massa varius id.</p>
-          </article>
-          <figure>
-            <img src = "">
-          <figure>
-        </div>
-        <div class = "articuno">
-          <figure>
-            <img src="">
-          </figure>
-          <header>
-            <h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT</h3>
-          </header>
-          <article>
-            <p>Morbi tempor quam vel massa adipiscing ut cursus mi congue. Pellentesque misl velit, commodo vel ultrices vet. Consequat non tortor. Donec a elit diam, ut interdum purus. Nam fringilla dapibus tellus, at sollicitum lectus aliquetvel. Maecenas eros neque, fringilla a cursus et, volutpat ac lacus. Aliquam ac mauris libero. In tristique tincidunt est, a vulputate felis suscipit in. Nulla facilisi. Aliquam ac mauris libero. In tristique tincidunt est, a vulpurate felis suscipit in. Nunc et mi libero. Quisque portitor fringilla eros, io commodo massa varius id.</p>
-            <p>Pellentesque habitant morbi tristique senectus et netus at malesuada fames ac turpis agestas.</p>
-          </article>
-          <figure>
-            <img src = "">
-          <figure>
-        </div>
-      </section>
-    </section>
-
