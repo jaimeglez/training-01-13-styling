@@ -127,24 +127,28 @@ ul li figure {
 #main-articles {
   margin: 100px auto; }
 
-  #section-articles{
-    background-color: gray;
+
+  #section-articles li {
+    width: 900px;
   }
 
-  .img-articles, #section-articles img{
-    margin: 10px 0 40px 0;
+  #img-articles{
+    margin: 20px 0 40px 0;
     float: left;
     width: 120px;
     height: 120px;
-  }
-
-  .img2-articles {
-    float: right;
     background-color: red;
   }
 
-  #section-articles div h2, #section-articles div article{
+  #title-articles, #text-articles {
     margin-left: 160px;
-    width: 640px;
+    width: 660px;
   }
-
+#img2-articles{
+  background: url(../img/fancy-links.png) no-repeat;
+  width: 42px;
+  height: 40px;
+  margin-top: -80px;
+  float: right;
+  background-position: -84px;
+}
