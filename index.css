@@ -2,22 +2,21 @@
 Errno::ENOENT: No such file or directory - index.scss
 
 Backtrace:
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:339:in `read'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `each'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:235:in `watch'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/plugin.rb:107:in `method_missing'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/exec.rb:444:in `watch_or_update'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/exec.rb:307:in `process_result'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/exec.rb:41:in `parse'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/lib/sass/exec.rb:21:in `parse!'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.5/bin/sass:8:in `<top (required)>'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/bin/sass:19:in `load'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/bin/sass:19:in `<main>'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/bin/ruby_noexec_wrapper:14:in `eval'
-/home/cesar/.rvm/gems/ruby-1.9.3-p374/bin/ruby_noexec_wrapper:14:in `<main>'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `read'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin/compiler.rb:235:in `watch'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/exec.rb:444:in `watch_or_update'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/exec.rb:307:in `process_result'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/var/lib/gems/1.8/gems/sass-3.2.5/bin/sass:8
+/usr/local/bin/sass:19:in `load'
+/usr/local/bin/sass:19
 */
 body:before {
   white-space: pre;

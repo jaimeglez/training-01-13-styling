@@ -152,3 +152,54 @@ ul li figure {
   float: right;
   background-position: -84px;
 }
+
+
+
+#logo-foot {
+  background: url(../img/logo_footter.png) no-repeat;
+  height: 80px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+#footer-text {
+  float:left;
+  /*background: red;*/
+  height: 140px;
+  width: 420px;
+  margin: 0 auto;
+  
+}
+
+#footer-social{
+  /*display:inline-block;*/
+  float:left;
+  /*background: blue;*/
+  height: 140px;
+  width: 480px;
+  margin:0 auto;
+  /*margin-left:10px;*/
+}
+
+#foot-content{
+  /*background: green;*/
+  height: 140px;
+  width: 900px;
+  margin:0 auto;
+}
+#copy{
+  background:#444 ;
+  height:30px;
+  width:900px;
+  margin:0 auto;
+  margin-top:50px;
+}
+
+footer {
+  color:#999;
+  height:500px;
+  line-height:30px;
+  font-size:13px;
+}
