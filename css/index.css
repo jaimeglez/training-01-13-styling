@@ -57,7 +57,7 @@ body {
   margin: 0 auto;
   padding: 30px; }
 
-#menu ul li, #header-social li, .avatars li, #section-articles ul li {
+#menu ul li, #header-social li, .avatars li {
   display: inline-block;
   cursor: pointer; }
 
@@ -127,33 +127,27 @@ ul li figure {
 #main-articles {
   margin: 100px auto; }
 
+#section-articles {
+  width: 900px; }
 
-  #section-articles li {
-    width: 900px;
-  }
+#section-articles .img-articles {
+  margin: 5px 0 0 0;
+  float: left;
+  width: 140px;
+  height: 110px;
+  background: red; }
 
-  #img-articles{
-    margin: 20px 0 40px 0;
-    float: left;
-    width: 120px;
-    height: 120px;
-    background-color: red;
-  }
+.title-articles, .text-articles {
+  margin-left: 160px;
+  width: 660px; }
 
-  #title-articles, #text-articles {
-    margin-left: 160px;
-    width: 660px;
-  }
-#img2-articles{
+.img2-articles {
   background: url(../img/fancy-links.png) no-repeat;
   width: 42px;
   height: 40px;
   margin-top: -80px;
   float: right;
-  background-position: -84px;
-}
-
-
+  background-position: -84px; }
 
 #logo-foot {
   background: url(../img/logo_footter.png) no-repeat;
@@ -161,45 +155,34 @@ ul li figure {
   width: 900px;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: -20px;
-}
+  margin-bottom: -20px; }
 
 #footer-text {
-  float:left;
-  /*background: red;*/
+  float: left;
   height: 140px;
   width: 420px;
-  margin: 0 auto;
-  
-}
+  margin: 0 auto; }
 
-#footer-social{
-  /*display:inline-block;*/
-  float:left;
-  /*background: blue;*/
+#footer-social {
+  float: left;
   height: 140px;
   width: 480px;
-  margin:0 auto;
-  /*margin-left:10px;*/
-}
+  margin: 0 auto; }
 
-#foot-content{
-  /*background: green;*/
+#foot-content {
   height: 140px;
   width: 900px;
-  margin:0 auto;
-}
-#copy{
-  background:#444 ;
-  height:30px;
-  width:900px;
-  margin:0 auto;
-  margin-top:50px;
-}
+  margin: 0 auto; }
+
+#copy {
+  background: #444444;
+  height: 30px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px; }
 
 footer {
-  color:#999;
-  height:500px;
-  line-height:30px;
-  font-size:13px;
-}
+  color: #999;
+  height: 500px;
+  line-height: 30px;
+  font-size: 13px; }

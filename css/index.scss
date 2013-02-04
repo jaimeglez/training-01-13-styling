@@ -1,4 +1,4 @@
-center:0 auto;
+$center:0 auto;
 $gray:#303030;
 $width-logo:455px;
 $height-logo:201px;
@@ -22,14 +22,14 @@ body {
   overflow: hidden;
   margin-bottom: 20px;
 }
+
 #socials{
   display: block;
-
   margin: -40px 0 0 875px;
-  //float: right;
   height: 45px;
   width: 90px;
 }
+
 #social{
   float: left;
   background: url(../img/fancy-links.png) no-repeat;
@@ -73,16 +73,10 @@ body {
   padding: 30px;
 }
 
-
 #menu ul li, #header-social li, .avatars li  {
   display:inline-block;
   cursor:pointer;
 }
-
-
-#slider{
-  }
-
 
 ul li figure {
   text-align:left;
@@ -160,34 +154,34 @@ background-color: #c9c9c9;
   background: url(../img/twitter-bird.png);
   }
 
-#main-articles {
+  #main-articles {
   margin: 100px auto; }
 
 
-  #section-articles li {
+  #section-articles {
     width: 900px;
   }
 
-  #img-articles{
-    margin: 20px 0 40px 0;
+  #section-articles .img-articles{
+    margin: 5px 0 0 0;
     float: left;
-    width: 120px;
-    height: 120px;
-    background-color: red;
+    width: 140px;
+    height: 110px;
+    background: red;
   }
 
-  #title-articles, #text-articles {
+  .title-articles, .text-articles {
     margin-left: 160px;
     width: 660px;
   }
-#img2-articles{
-  background: url(../img/fancy-links.png) no-repeat;
-  width: 42px;
-  height: 40px;
-  margin-top: -80px;
-  float: right;
-  background-position: -84px;
-}
+  .img2-articles{
+    background: url(../img/fancy-links.png) no-repeat;
+    width: 42px;
+    height: 40px;
+    margin-top: -80px;
+    float: right;
+    background-position: -84px;
+  }
 
 
 
@@ -202,7 +196,6 @@ background-color: #c9c9c9;
 
 #footer-text {
   float:left;
-  /*background: red;*/
   height: 140px;
   width: 420px;
   margin: 0 auto;
@@ -210,17 +203,13 @@ background-color: #c9c9c9;
 }
 
 #footer-social{
-  /*display:inline-block;*/
   float:left;
-  /*background: blue;*/
   height: 140px;
   width: 480px;
   margin:0 auto;
-  /*margin-left:10px;*/
 }
 
 #foot-content{
-  /*background: green;*/
   height: 140px;
   width: 900px;
   margin:0 auto;
